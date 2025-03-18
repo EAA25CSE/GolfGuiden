@@ -1,0 +1,215 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+header img.logo{
+    width: auto;
+    height: 110px;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 60px
+}
+h1{
+    color: #235b2b;
+}
+h2{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+    padding-left: 50px; 
+    padding-right: 50px;
+    font-weight: normal;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F4D03F; /* Yellow background */
+    border-radius: 5px;
+    width: 80%;
+    margin: auto;
+    border: #235b2b 2px solid;
+}
+
+.menu-item {
+    flex: 1;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    color: #235b2b; /* Dark green text */
+    padding: 15px;
+    border-right: 2px solid #235b2b; /* Adds separation between items */
+}
+
+.menu-item:last-child {
+    border-right: none; /* Removes the last border */
+}
+
+.title-underline {
+    width: 700px;
+    height: 4px;
+    background-color: #E0C03D;
+    margin: -30px auto 30px auto;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.rule {
+    background-color: white;
+    padding: 20px;
+    text-align: left;
+    border: 2px solid black;
+}
+
+.rule h2 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #2B4F2B;
+}
+
+.rule p {
+    font-size: 20px;
+    color: black;
+}
+
+.underline {
+    width: 200x;
+    height: 2px;
+    background-color: #E0C03D;
+    margin: 5px 0;
+}
+
+
+.dresscode-container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.dresscode-title {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.dresscode-underline {
+    width: 250px;
+    height: 4px;
+    background-color: #E0C03D;
+    margin: -30px auto;
+}
+
+.dresscode-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.dresscode-text {
+    flex: 1;
+    min-width: 300px;
+    line-height: 2;
+}
+.dresscode-text h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #2B4F2B;
+    text-align: left;
+}
+.dresscode-text p {
+    font-size: 20px;
+    color: black;
+    margin: 10px 0;
+}
+.dresscode-image {
+    flex: 1;
+    max-width: 350px;
+    margin-top: 120px;
+}
+.dresscode-image img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .dresscode-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .dresscode-text {
+        text-align: left;
+    }
+}
+.middle-line {
+    width: 90%;
+    margin-top: 100px; /* Increase the vertical spacing */
+    border: none;
+    border-top: 3px solid #235b2b; /* Customize the line color and thickness */
+}
+
+/* Main Container */
+.golf-equipment-container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Title */
+.golf-equipment-title {
+    font-size: 50px;
+    color: #2d5d2d;
+    border-bottom: 3px solid #d8aa2c;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Grid Layout */
+.golf-equipment-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 60px;
+    margin-top: 20px;
+    
+}
+
+/* Equipment Item */
+.golf-equipment-item {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.golf-equipment-item img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+/* Headings */
+.golf-equipment-heading {
+    font-size: 30px;
+    color: #2d5d2d;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Paragraphs */
+.golf-equipment-item p {
+    font-size: 20px;
+    color: #333;
+}
