@@ -74,7 +74,7 @@ p{
 .used-golf-set {
     padding: 20px;
     border-top: 2px solid #2d572c;
-    max-width: 900px;
+    max-width: 1100px;
     margin: auto;
 }
 .used-golf-set h2 {
@@ -95,9 +95,10 @@ p{
     margin-top: 0px;
 }
 .used-golf-container img {
-    width: 475px;
+    width: 500px;
     border-radius: 8px;
     border: #000000 1px solid;
+    margin-top: -75px;
 }
 .used-golf-text {
     flex: 2;

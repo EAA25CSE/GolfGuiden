@@ -112,8 +112,9 @@ h2::after {
 .steps h3{
     text-align: center;
     color: #3c5e3f;
-    font-size: 18px;
+    font-size:30px;
     position: relative;
+    
 }
 
 .step {
