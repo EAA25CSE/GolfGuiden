@@ -1,3 +1,4 @@
+/* --- Header --- */
 header{
     display: flex;
     justify-content: space-around;
@@ -22,13 +23,13 @@ header nav a{
 
 header nav a:hover{
     color: white;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid #F4D03F;
 
 }
 
 header nav a.active{
-    border-bottom: 2px solid white;
-    text-decoration: underline white;
+    border-bottom: 2px solid #F4D03F;
+    text-decoration: underline #F4D03F;
 }
 
 header nav{
@@ -36,6 +37,7 @@ header nav{
     gap: 40px;
     align-items: center;
 }
+/* --- Footer --- */
 footer {
     background-color: #235b2b;
     color: white;
@@ -73,7 +75,7 @@ footer img{
 }
 
 .social-icons img {
-    width: 30px; /* Juster størrelsen på ikonerne */
+    width: 30px; 
     height: auto;
     color: white;
 }

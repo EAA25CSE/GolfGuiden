@@ -2,18 +2,19 @@ html, body{
     margin: 0;
     padding: 0;
 }
+/* --- Tilføjelser til header --- */
 header img.logo{
     width: auto;
     height: 110px;
 }
+/* --- Overskrifter --- */
 h1{
     text-align: center;
     margin-top: 50px;
-    font-size: 60px
-}
-h1{
+    font-size: 60px;
     color: #235b2b;
 }
+
 h2{
     text-align: center;
     margin-top: 50px;
@@ -21,12 +22,16 @@ h2{
     padding-left: 50px; 
     padding-right: 50px;
     font-weight: normal;
+    color: #235b2b;
+    line-height: 1.5;
 }
+
+/* --- Menu --- */
 .menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #F4D03F; /* Yellow background */
+    background-color: #F4D03F;
     border-radius: 5px;
     width: 80%;
     margin: auto;
@@ -38,22 +43,22 @@ h2{
     text-align: center;
     font-weight: bold;
     font-size: 18px;
-    color: #235b2b; /* Dark green text */
+    color: #235b2b;
     padding: 15px;
-    border-right: 2px solid #235b2b; /* Adds separation between items */
+    border-right: 2px solid #235b2b;
 }
 
 .menu-item:last-child {
-    border-right: none; /* Removes the last border */
+    border-right: none; 
 }
-
+/* --- Underline --- */
 .title-underline {
     width: 700px;
     height: 4px;
     background-color: #E0C03D;
     margin: -30px auto 30px auto;
 }
-
+/* --- Regler / Etikette --- */
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -87,7 +92,15 @@ h2{
     margin: 5px 0;
 }
 
+.title-container {
+    text-align: center;
+}
 
+.golf-equipment-title {
+    display: inline-block; 
+}
+
+/* --- Dresscode --- */
 .dresscode-container {
     max-width: 1000px;
     margin: auto;
@@ -152,14 +165,23 @@ h2{
         text-align: left;
     }
 }
+.dresscode-bold{
+    font-weight: bold;
+}
+.dresscode-bold p{
+    color: #2B4F2B;
+}
+/* --- Linjer mellem siderne --- */
 .middle-line {
     width: 90%;
-    margin-top: 100px; /* Increase the vertical spacing */
+    margin-top: 100px;
     border: none;
-    border-top: 3px solid #235b2b; /* Customize the line color and thickness */
+    border-top: 3px solid #235b2b; 
 }
-
-/* Main Container */
+.rule{
+    text-align: center;
+}
+/* --- Udstyr --- */
 .golf-equipment-container {
     max-width: 1000px;
     margin: auto;
@@ -167,7 +189,6 @@ h2{
     text-align: center;
 }
 
-/* Title */
 .golf-equipment-title {
     font-size: 50px;
     color: #2d5d2d;
@@ -176,7 +197,6 @@ h2{
     padding-bottom: 5px;
 }
 
-/* Grid Layout */
 .golf-equipment-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -185,7 +205,6 @@ h2{
     
 }
 
-/* Equipment Item */
 .golf-equipment-item {
     background: white;
     padding: 20px;
@@ -198,9 +217,9 @@ h2{
     width: 150px;
     height: auto;
     margin-bottom: 15px;
+    max-height: 150px;
 }
 
-/* Headings */
 .golf-equipment-heading {
     font-size: 30px;
     color: #2d5d2d;
@@ -208,7 +227,6 @@ h2{
     font-weight: bold;
 }
 
-/* Paragraphs */
 .golf-equipment-item p {
     font-size: 20px;
     color: #333;
